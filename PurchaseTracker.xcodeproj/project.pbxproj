@@ -13,6 +13,7 @@
 		500CC0CE19451D9B006A67DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 500CC0CC19451D9B006A67DB /* Main.storyboard */; };
 		500CC0D019451D9B006A67DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 500CC0CF19451D9B006A67DB /* Images.xcassets */; };
 		500CC0DC19451D9B006A67DB /* PurchaseTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CC0DB19451D9B006A67DB /* PurchaseTrackerTests.swift */; };
+		503B94B71968BDAD00560BAB /* PurchasesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503B94B61968BDAD00560BAB /* PurchasesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		500CC0D519451D9B006A67DB /* PurchaseTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PurchaseTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		500CC0DA19451D9B006A67DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		500CC0DB19451D9B006A67DB /* PurchaseTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseTrackerTests.swift; sourceTree = "<group>"; };
+		503B94B61968BDAD00560BAB /* PurchasesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				500CC0C619451D9B006A67DB /* AppDelegate.swift */,
 				500CC0C819451D9B006A67DB /* FirstViewController.swift */,
 				500CC0CA19451D9B006A67DB /* SecondViewController.swift */,
+				503B94B61968BDAD00560BAB /* PurchasesTableViewController.swift */,
 				500CC0CC19451D9B006A67DB /* Main.storyboard */,
 				500CC0CF19451D9B006A67DB /* Images.xcassets */,
 				500CC0C419451D9B006A67DB /* Supporting Files */,
@@ -213,6 +216,7 @@
 			files = (
 				500CC0CB19451D9B006A67DB /* SecondViewController.swift in Sources */,
 				500CC0C719451D9B006A67DB /* AppDelegate.swift in Sources */,
+				503B94B71968BDAD00560BAB /* PurchasesTableViewController.swift in Sources */,
 				500CC0C919451D9B006A67DB /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +405,7 @@
 				500CC0E119451D9B006A67DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		500CC0E219451D9B006A67DB /* Build configuration list for PBXNativeTarget "PurchaseTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +414,7 @@
 				500CC0E419451D9B006A67DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
